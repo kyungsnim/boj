@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - panic_room",
+            "request": "launch",
+            "mainClass": "BOJ.panic_room",
+            "projectName": "git"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - P_1238",
+            "request": "launch",
+            "mainClass": "BOJ.P_1238",
+            "projectName": "git"
+        }
+    ]
+}

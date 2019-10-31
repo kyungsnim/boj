@@ -52,19 +52,19 @@ public class P_1261 {
 		
 		for(int i = 1; i <= N; i++) {
 			for(int j = 1; j <= M; j++) {
-				if(i > 1) { // ╩С
+				if(i > 1) { // О©╫О©╫
 					con[(i-1)*M+j].add((i-2)*M+j);
 					conv[(i-1)*M+j].add(arr[i-1][j]);
 				}
-				if(i < N) { // го
+				if(i < N) { // О©╫О©╫
 					con[(i-1)*M+j].add((i)*M+j);
 					conv[(i-1)*M+j].add(arr[i+1][j]);
 				}
-				if(j > 1) { // аб
+				if(j > 1) { // О©╫О©╫
 					con[(i-1)*M+j].add((i-1)*M+(j-1));
 					conv[(i-1)*M+j].add(arr[i][j-1]);
 				}
-				if(j < M) { // ©Л
+				if(j < M) { // О©╫О©╫
 					con[(i-1)*M+j].add((i-1)*M+(j+1));
 					conv[(i-1)*M+j].add(arr[i][j+1]);
 				}

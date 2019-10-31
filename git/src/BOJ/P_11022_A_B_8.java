@@ -2,7 +2,6 @@ package BOJ;
 
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class P_11022_A_B_8 {
 
@@ -14,5 +13,6 @@ public class P_11022_A_B_8 {
 			B = sc.nextInt();
 			System.out.println(A+B);
 		}
+		sc.close();
 	}
 }
